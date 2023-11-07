@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "shikiotaku",
+            "request": "launch",
+            "type": "dart",
+            // "env": {
+            //     "ENVIRONMENT": "develop"
+            // },
+            // "args": [
+            //     "--dart-define-from-file=config/development.json",
+            //     /* "--enable-experiment=sealed-class,records,patterns,class-modifiers", */
+            //     "--dart-define=ENVIRONMENT=development",
+            //     "--web-renderer=html"
+            // ]
+        },
+        {
+            "name": "shikiotaku (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "shikiotaku (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

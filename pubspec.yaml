@@ -1,0 +1,60 @@
+name: shikiotaku
+description: Shikiotaku app.
+publish_to: 'none'
+version: 0.1.0
+homepage: https://github.com/ntfnd404/shikiotaku
+repository: https://github.com/ntfnd404/shikiotaku
+issue_tracker: https://github.com/ntfnd404/shikiotaku/issues
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  # Flutter SDK
+  flutter:
+    sdk: flutter
+
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  
+  # Logger
+  l: 4.0.2
+
+  meta: ^1.9.0
+
+dev_dependencies:
+  # Unit & Widget tests for Flutter
+  flutter_test:
+    sdk: flutter
+
+  # Integration tests for Flutter
+  integration_test:
+    sdk: flutter
+
+  # Linting
+  flutter_lints: 3.0.1
+
+flutter:
+  uses-material-design: true
+
+flutter_intl:
+  enabled: true
+  class_name: GeneratedLocalization
+  main_locale: ru
+  arb_dir: lib/src/common/localization/arb
+  output_dir: lib/src/common/localization/generated
+  use_deferred_loading: false
+
+#flutter_gen:
+#  output: lib/src/common/constant/
+#  line_length: 120
