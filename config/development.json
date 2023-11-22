@@ -1,4 +1,4 @@
 {
-    "ENVIRONMENT": "development",
-    "API_BASE_URL": "https://shikiotaku.one/api/"
-  }
+  "ENVIRONMENT": "development",
+  "API_BASE_URL": "https://shikiotaku.one/api/"
+}

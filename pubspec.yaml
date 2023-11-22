@@ -2,6 +2,7 @@ name: shikiotaku
 description: Shikiotaku app.
 publish_to: 'none'
 version: 0.1.0
+
 homepage: https://github.com/ntfnd404/shikiotaku
 repository: https://github.com/ntfnd404/shikiotaku
 issue_tracker: https://github.com/ntfnd404/shikiotaku/issues
@@ -15,7 +16,7 @@ platforms:
   windows:
 
 environment:
-  sdk: '>=3.1.5 <4.0.0'
+  sdk: '>=3.2.0 <4.0.0'
 
 dependencies:
   # Flutter SDK
@@ -25,12 +26,12 @@ dependencies:
   # Localization
   flutter_localizations:
     sdk: flutter
-  intl: any
+  intl: 0.18.1
   
   # Logger
   l: 4.0.2
 
-  meta: ^1.9.0
+  meta: 1.10.0
 
 dev_dependencies:
   # Unit & Widget tests for Flutter
@@ -46,6 +47,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  generate: true
 
 flutter_intl:
   enabled: true
